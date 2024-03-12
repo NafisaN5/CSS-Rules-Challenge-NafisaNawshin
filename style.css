@@ -1,0 +1,48 @@
+img {
+  width: 150px;
+  height: 150px;
+}
+/*I changed the font sizes of the headings and I changed the background colors/theme and the fonts*/
+h1, h2, h3, h5{
+  font-size: 1.5em;
+  font-family: Lucida Console;
+  color: #41596c;
+}
+body{
+  background-color: #80acc2;
+  color:#354450;
+    text-align: center;
+  margin: 5;
+  font-family: Courier New;
+  font-size: 0.8em;
+   border: 3px solid #194167;
+  position: relative;
+}
+/*added a border to the :horizontal lines and images*/
+hr{
+  border: 1px solid #194167;
+}
+
+img{
+   border: 3px solid #5f93c4;
+}
+
+.flower img {
+  border: 5px solid #b8eaff; 
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.flower:hover img {
+  transform: scale(1.1);
+}
+
+
+.flower h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #ff6b81; 
+  font-family: 'Georgia', serif;
+}
